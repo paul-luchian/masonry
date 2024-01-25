@@ -1,0 +1,12 @@
+<div class="container">
+  <ng-container *ngFor="let image of images$ | async">
+    <div
+      class="box"
+    >
+      <img
+        src="{{image.urls.small}}"
+        [alt]="image.id"
+      />
+    </div>
+  </ng-container>
+</div>

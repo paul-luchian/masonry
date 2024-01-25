@@ -1,0 +1,4 @@
+{
+  "unsplashAccessKey": "YOUR_TOKEN_ID",
+  "baseUrl": "https://api.unsplash.com"
+}
